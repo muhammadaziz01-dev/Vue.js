@@ -7,3 +7,6 @@
 
 ### **lesson-3** 
 *Amalyot todo list*
+
+### **lesson-4** 
+*Vue.js da dinamic classlar va coputedni qo'llash*
