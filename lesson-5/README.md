@@ -1,0 +1,2 @@
+# Umumi takrorlash 
+
