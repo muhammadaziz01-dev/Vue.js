@@ -10,3 +10,6 @@
 
 ### **lesson-4** 
 *Vue.js da dinamic classlar va coputedni qo'llash*
+
+### **lesson-5** 
+*Umumiy takrorlash*
