@@ -3,11 +3,14 @@
     <img :src="props?.dataCardElement?.link" :alt="dataCardElement?.alert" />
     <h2>{{ dataCardElement?.title }}</h2>
     <p>{{ dataCardElement?.description }}</p>
+    <Button :isDan="props?.dataCardElement?.activ"/>
+
   </div>
 </template>
 
 <script setup>
 import { defineProps } from "vue";
+import Button from "./Button.vue";
 const props = defineProps({
   dataCardElement: {
     type: Object,
