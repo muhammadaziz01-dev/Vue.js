@@ -13,3 +13,6 @@
 
 ### **lesson-5** 
 *Umumiy takrorlash*
+
+### **lesson-6** 
+*Tabel bilan ishlash va bootstrap yordamida roterni birqator takrorlash va child componentga params va propis yordamida malumot almashunuvini taminlash*
