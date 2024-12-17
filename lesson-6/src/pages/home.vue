@@ -19,6 +19,7 @@
         <td>{{ el.year }}</td>
         <td>{{ el.price }}</td>
         <td>{{ el.color }}</td>
+        
         <td>
           <router-link class="btn btn-outline-info" :to="{path:`/second/`+el?.id }" > second</router-link> 
         </td>
