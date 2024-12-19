@@ -88,6 +88,11 @@ import Container from "../containers/container.vue";
       border: none;
       cursor: pointer;
       margin: 0 auto;
+      transition: all 0.3s linear;
+
+      &:hover {
+        background: #00962b;
+      }
 
     }
   }
