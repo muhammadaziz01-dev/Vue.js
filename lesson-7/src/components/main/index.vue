@@ -4,6 +4,9 @@
      <InnfoSection title="Bizning kurslarimiz kimga to’g’ri keladi ?" />
      <Intro/>
      <InnfoSection title="PDP Junior  kurslari" />
+     <Curs/>
+     <InnfoSection title="Bog’lanish uchun" />
+
    </main> 
 </template>
 
@@ -11,6 +14,8 @@
 import Hero from "../sections/Hero.vue";
 import InnfoSection from "../ui/info-section.vue";
 import Intro from "../sections/Intro.vue";
+import Curs from "../sections/Curs.vue";
+
 </script>
 
 <style lang="scss" scoped>

@@ -9,7 +9,7 @@
             /></a>
           </li>
           <li class="nav--list--itim">
-            <a href="#" class="nav--list--itim-link">Kurslarimiz</a>
+            <a href="#curs" class="nav--list--itim-link">Kurslarimiz</a>
           </li>
           <li class="nav--list--itim">
             <a href="#" class="nav--list--itim-link">Bog’lanish</a>
