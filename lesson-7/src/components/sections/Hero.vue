@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <Container>
-      <div class="hero--wrapper">
+      <div class="hero--wrapper" data-aos="fade-right" data-aos-duration="1000" >  
         <div class="hero--wrapper--card">
           <h1 class="hero--wrapper--card-title">
             PDP Junior – IT kelajakni shu yerdan boshlang!
