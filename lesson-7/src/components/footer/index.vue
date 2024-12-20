@@ -2,7 +2,9 @@
   <footer id="footer">
     <Container>
       <div class="footer--top">
-        <img :src="logo" alt="PDP junior" class="footer--top--logo" />
+        <a href="#hero">
+          <img :src="logo" alt="PDP junior" class="footer--top--logo" />
+        </a>
         <div class="footer--top--icon-wrapp">
           <a href="https://t.me/pdpuniversity" target="_blank">
             <img :src="TelegramIcon" alt="telegram" />
