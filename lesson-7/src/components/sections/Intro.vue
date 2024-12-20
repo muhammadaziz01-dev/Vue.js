@@ -1,7 +1,7 @@
 <template>
   <section id="intro">
     <Container>
-      <div class="intro--wrapper">
+      <div class="intro--wrapper" data-aos="fade-left" data-aos-duration="1000">
         <div class="intro--wrapper--card">
           <div class="intro--wrapper--card--top-info">
             <h2>Asosan 8 -17 yoshdagi bolalar uchun</h2>
