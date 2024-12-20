@@ -2,7 +2,7 @@
   <section id="curs">
     <Container>
       <div class="curs--wrapper">
-        <Card v-for="(el ,i ) in kursInfo" :key="i" :data="el"/>
+        <Card v-for="(el ,i ) in kursInfo" :key="i" :data="el" />
       </div>
     </Container>
   </section>

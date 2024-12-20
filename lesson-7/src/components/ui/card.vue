@@ -1,5 +1,5 @@
 <template>
-  <div class="curs--wrapper--parend">
+  <div class="curs--wrapper--parend" data-aos="zoom-in" data-aos-duration="1000">
     <div class="curs--wrapper--parend--card">
       <img :src="data?.img" :alt="data?.title" />
       <div class="curs--wrapper--parend--card--info">
