@@ -3,7 +3,7 @@
     <h3>Component A</h3>
     <p>{{ infoCar.brand }}</p>
     <p>{{ infoCar.model }}</p>
-    <ComponentB />
+    <ComponentB @user="getEmit" />
   </div>
 </template>
 
@@ -25,6 +25,13 @@ const prop = defineProps({
     }),
   },
 });
+
+const getEmit = (e)=>{
+    console.log(e.value);
+    console.log( " getEmit componenta A");
+}
+
+
 </script>
 
 <style scoped>

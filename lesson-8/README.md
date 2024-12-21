@@ -98,3 +98,54 @@ const cardInfo = inject("car")
 ```
 
 <hr />
+
+-  ### **Emit** bu child componentadan parent componentaga malumot uzatish qo'laniladi u yordamida biz malumotni childdan parentga jo'natishlik imkoni yaratiladi faqat o'zidan avvalgi parent companentaga uzatamiz , agar undanham katta commpanentaga jo'natmoqchi bo'lsak aval parentda uni handekl qilib olamiz va yan emit yordamida uni undan catta bo'lgan componentaga jo'natamiz . Emitni nima nom bilan bersak shu nom bilan ushlab olishligimiz kerak .
+
+misol : <code>child.vue</code>
+
+```
+<template>
+  <div class="wrapperB">
+    <h3>Component B</h3>
+    <button @click="setEmit">setEmit</button>
+  </div>
+</template>
+
+<script setup>
+import { defineEmits , ref} from "vue";
+const user = ref({
+    name:"Aziz" , age:22
+});
+
+const emit = defineEmits()
+
+const setEmit = ()=>{
+    emit("user" ,   user)
+}
+
+
+</script>
+
+
+```
+
+<code>parent.vue</code> 
+
+```
+<template>
+  <div class="wrapperA">
+    <h3>Component A</h3>
+    <ComponentB @user="getEmit" />
+  </div>
+</template>
+
+<script setup>
+import ComponentB from "./component-b.vue";
+
+const getEmit = (e)=>{
+    console.log(e.value);
+    console.log( " getEmit componenta A");
+}
+</script>
+
+```
