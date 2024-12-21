@@ -21,3 +21,8 @@
 ***Amalyot loyih**  Lading page ,  loyihada AOS kuubhonasi Mask hamda Tostifiy qo'shimcha kutubhonalar ishlatilgan .*
 
 [loyiha linki 👈](https://coruscating-griffin-e1bd06.netlify.app/)
+
+
+### **lesson-8** 
+
+- ###  ***Props , Provide - Inject , Emit***
