@@ -16,3 +16,8 @@
 
 ### **lesson-6** 
 *Tabel bilan ishlash va bootstrap yordamida roterni birqator takrorlash va child componentga params va propis yordamida malumot almashunuvini taminlash*
+
+### **lesson-7** 
+***Amalyot loyih**  Lading page ,  loyihada AOS kuubhonasi Mask hamda Tostifiy qo'shimcha kutubhonalar ishlatilgan .*
+
+[loyiha linki 👈](https://coruscating-griffin-e1bd06.netlify.app/)
