@@ -1,11 +1,28 @@
-import { createRouter, createWebHistory } from 'vue-router';
-
+import { createRouter, createWebHistory } from 'vue-router'
+import App from '../App.vue'
 const routes = [
   {
     path: '/',
-    name: 'SignIn',
-    component: ()=> import ('../views/signin/index.vue'),
-  }
+    name: 'App',
+    component: App,
+    children: [
+      {
+        path: '',
+        name: 'Signup',
+        component: () => import('../views/signup/index.vue'),
+      },
+      {
+        path: '/signin',
+        name: 'Signin',
+        component: () => import('../views/signin/index.vue'),
+      },
+      {
+        path: '/:pathMatch(.*)*',
+        name: 'Error',
+        component: () => import('../views/error/index.vue'),
+      },
+    ],
+  },
 ]
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
