@@ -8,13 +8,13 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'Signup',
-        component: () => import('../views/signup/index.vue'),
-      },
-      {
-        path: '/signin',
         name: 'Signin',
         component: () => import('../views/signin/index.vue'),
+      },
+      {
+        path: '/signup',
+        name: 'Signup',
+        component: () => import('../views/signup/index.vue'),
       },
       {
         path: '/:pathMatch(.*)*',
